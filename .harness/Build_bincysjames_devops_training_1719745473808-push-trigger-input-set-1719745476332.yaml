@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_bincysjames_devops_training_1719745473808-push-trigger-input-set
+  identifier: Build_bincysjames_devops_training_1719745473808pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_bincysjames_devops_training_1719745473808
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
